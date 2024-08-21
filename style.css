@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: cadetblue;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #DEB887;
+  color: #8FBC8F;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #CD853F;
+}
+
+.content {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+/* Style for menu on scroll */
+#nav.scrolled {
+  background-color: #A9A9A9;
+}
+
+/* Style for active menu item */
+nav li a.active {
+  background-color: #A0522D;
+}
